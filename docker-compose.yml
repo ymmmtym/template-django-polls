@@ -1,0 +1,11 @@
+version: '3'
+services:
+  studb:
+    build: .
+    container_name: studb-container
+    hostname: studb-container
+    tty: true
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:8000"
