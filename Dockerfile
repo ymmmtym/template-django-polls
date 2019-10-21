@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 LABEL maintainer "ymmmtym"
-ENV HOSTNAME="studb-container" \
+ENV HOSTNAME="django-polls-container" \
     APP_PATH="/app" \
     PS1="[\u@\h \W]# "
 

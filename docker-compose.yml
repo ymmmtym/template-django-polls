@@ -1,9 +1,9 @@
 version: '3'
 services:
-  studb:
+  django-polls:
     build: .
-    container_name: studb-container
-    hostname: studb-container
+    container_name: django-polls-container
+    hostname: django-polls-container
     tty: true
     volumes:
       - ./app:/app
