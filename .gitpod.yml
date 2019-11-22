@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
+
+- port: 8000
+  onOpen: open-browser
