@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-LABEL maintainer "ymmmtym"
+LABEL Maintainer "ymmmtym"
 ENV HOSTNAME="django-polls-container" \
     APP_PATH="/app" \
     PS1="[\u@\h \W]# "
