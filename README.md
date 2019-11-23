@@ -1,1 +1,1 @@
-# django-polls
+# docker-django-polls
