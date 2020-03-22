@@ -2,8 +2,9 @@ version: '3'
 services:
   django-polls:
     build: .
-    container_name: django-polls-container
-    hostname: django-polls-container
+    image: yumemo/django-polls
+    container_name: django-polls
+    hostname: django-polls
     tty: true
     volumes:
       - ./app:/app
