@@ -13,3 +13,4 @@ RUN apk update && \
     pip install -r requirements.txt
 WORKDIR $APP_PATH
 CMD [ "python", "manage.py", "runserver", "0:8000" ]
+EXPOSE 8000
