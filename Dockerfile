@@ -12,5 +12,5 @@ RUN apk update && \
     pip install --upgrade setuptools && \
     pip install -r requirements.txt
 WORKDIR ${APP}
-CMD [ "python", "manage.py", "runserver", "0:8000" ]
 EXPOSE 8000
+CMD [ "python", "manage.py", "runserver", "0:8000" ]
