@@ -7,6 +7,6 @@ services:
     hostname: django-polls
     tty: true
     volumes:
-      - ./app:/app
+      - .:/opt/app
     ports:
       - "8000:8000"
